@@ -1,0 +1,52 @@
+{
+  "schema": "ska.planetary_reception.v1",
+  "event_count": 46786,
+  "first_tick": 1,
+  "last_tick": 46786,
+  "first_reception_seconds_since_j2000_tdb": 460.888664460066,
+  "last_reception_seconds_since_j2000_tdb": 7637776.629746669,
+  "source_signature_frequencies_hz": [
+    4.477492300116378e+73,
+    8.703848530773663e+73,
+    6.601982728808719e+74,
+    8.100606534925774e+74,
+    1.1774829638745261e+76,
+    1.3890706975128312e+76,
+    7.708609105416307e+76,
+    2.5746024944209535e+77
+  ],
+  "learner_visible_fields": [
+    "schema",
+    "event_id",
+    "tick",
+    "reception_seconds_since_j2000_tdb",
+    "reception_jd_tdb",
+    "reception_gap_seconds",
+    "source_compton_frequency_hz",
+    "source_log10_compton_frequency",
+    "return_amplitude_over_A0",
+    "delta_A_over_A0",
+    "azimuth_radians",
+    "elevation_radians",
+    "round_trip_duration_seconds",
+    "source_sequence_index",
+    "x_candidate",
+    "x_candidate_names"
+  ],
+  "hidden_from_stream": [
+    "planet_name",
+    "planet_id",
+    "heliocentric_distance",
+    "x",
+    "y",
+    "z"
+  ],
+  "x_candidate_definition": "[log10(q), cos(az), sin(az), sin(el), cos(el), normalized_log10(f_C)] with q=1+delta_A/A0",
+  "time_basis": "J2000.0, JD 2451545.0 TDB; relative reception times preserve chronological order",
+  "source_dataset": "data/directional_tick_stream.npz",
+  "orbit_dataset": "data/planetary_wave_samples.npz",
+  "evaluation_truth_map": "data/frequency_truth_map.json",
+  "model_source": "https://ssd.jpl.nasa.gov/planets/approx_pos.html",
+  "sha256_uncompressed_jsonl": "4d54a5033ac7f9c9c7b873843c3ccb61bbd46a50fdf346582cc0a225436d22d2",
+  "compression": "gzip; decompress to newline-delimited JSON"
+}
