@@ -282,3 +282,44 @@ not supplied to the learner.
 - First reception: 460.888664 seconds after J2000.
 - Last reception: 7,637,776.630 seconds after J2000.
 - The manifest records the SHA-256 checksum of the uncompressed JSONL stream.
+pe
+
+The orbital input comes from JPL's approximate Keplerian elements and rates,
+
+## A note on Wheeler's participatory picture
+
+The construct is a working realization of John Archibald Wheeler's
+*it from bit*: the idea that every "it" derives its existence from
+answers to yes-or-no questions.
+
+> "It from bit. [...] every 'it' — every particle, every field of force,
+> even the spacetime continuum itself — derives its function, its meaning,
+> its very existence entirely [...] from [...] answers to yes-or-no
+> questions, binary choices, bits." — J. A. Wheeler
+
+Read that way, the abstraction is a dialogue:
+
+- The outward spherical wave is a question: *where are you?*
+- Each return is an answer: *I am here* — a single complete bit carrying
+  identity (the Compton frequency), direction (azimuth and elevation), and
+  amplitude (the $1/r$ potential and its $1/r^2$ gradient).
+- The geometry is not measured; it is **assembled from the accumulated
+  answers**. No question, no bit; no bit, no geometry. This is why the
+  configuration is relaxed into rather than launched, and why motion is the
+  cost of learning rather than the effect of a force.
+
+The same picture fixes the arrow of time. Because a round trip takes
+$\tau_i \approx 2r_i/c$, every *I am here* refers to a **past** here. The
+learner never holds the simultaneous present state that a differential
+equation presupposes — a state that, under relativistic causality, no
+observer possesses. What exists in the present is only the record: the
+weight matrix and the accumulated entropy. The stream is forward-only and
+historical events are never rewritten.
+
+> "The past has no existence except as it is recorded in the present."
+> — J. A. Wheeler
+
+This is the conceptual lineage of the abstraction, not a claim to have
+reproduced Wheeler's program. It states the design axiom plainly: keep only
+the recorded present, and refuse the simultaneous global state that the
+differential-equation view quietly assumes.
