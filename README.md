@@ -83,6 +83,11 @@ $$
 The inverse-square dependence is produced by composing the two $1/r$
 propagation factors.
 
+This is a property of the spherical wave. Its amplitude falls as $1/r$, and
+because $\frac{d}{dr}\!\left(\frac{1}{r}\right) = -\frac{1}{r^2}$, the returned
+$1/r^2$ is exactly the derivative of the outward $1/r$: the two legs are one
+function and its gradient, not two independent factors.
+
 The Compton frequency is the source signature. The return direction is given
 by azimuth $\lambda$ and elevation $\beta$. A reception event therefore
 contains amplitude, source signature, and direction.
