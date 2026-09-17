@@ -215,8 +215,6 @@ N-Body-Problem/
 │   ├── frequency_truth_map.json             # evaluation metadata
 │   ├── directional_tick_stream.npz          # directional source dataset
 │   └── planetary_wave_samples.npz           # launch/return samples
-├── figures/
-│   └── helicoidal_tick_stream.png
 └── scripts/
     ├── build_stream.py
     └── replay_stream.py
