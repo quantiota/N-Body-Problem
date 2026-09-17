@@ -297,10 +297,9 @@ The construct is a working realization of John Archibald Wheeler's
 *it from bit*: the idea that every "it" derives its existence from
 answers to yes-or-no questions.
 
-> "It from bit. [...] every 'it' — every particle, every field of force,
-> even the spacetime continuum itself — derives its function, its meaning,
-> its very existence entirely [...] from [...] answers to yes-or-no
-> questions, binary choices, bits." — J. A. Wheeler
+>It from bit symbolises the idea that every item of the physical world has at bottom — at a very deep bottom, in most instances — an immaterial source and explanation; that what we call reality arises in the last analysis from the posing of yes-no questions and the registering of equipment-evoked responses; in short, that all things physical are information-theoretic in origin and this is a participatory universe.
+
+*John Archibald Wheeler, “Information, Physics, Quantum: the Search for Links” at Reproduced from Proc. 3rd Int. Symp. Foundations of Quantum Mechanics, Tokyo, 1989, pp.354-368*
 
 Read that way, the abstraction is a dialogue:
 
