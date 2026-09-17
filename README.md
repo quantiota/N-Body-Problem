@@ -327,3 +327,11 @@ This is the conceptual lineage of the abstraction, not a claim to have
 reproduced Wheeler's program. It states the design axiom plainly: keep only
 the recorded present, and refuse the simultaneous global state that the
 differential-equation view quietly assumes.
+
+For the historical grounding of this lineage — Wheeler's action-at-a-distance
+program, the *theory of world lines*, and the short-range $1/r^2$ /
+long-range $1/r$ gravity of his 1953 Tokyo lecture — see Alexander Blum and
+Dieter Brill, *Tokyo Wheeler, or the Epistemic Preconditions of the
+Renaissance of Relativity* (2019):
+
+<https://arxiv.org/abs/1905.05988>
