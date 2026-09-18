@@ -16,8 +16,7 @@ here colored by source so each planet is legible.
 > **The colors are annotation, not the stream.** Splitting by planet uses the
 > source label — the truth map the SKA learner is *not* given. What the learner
 > actually receives is the single unlabeled series below:
->
-> ![What the learner sees — one unlabeled series](reception_stream_single.png)
+
 
 ## One event per index
 
