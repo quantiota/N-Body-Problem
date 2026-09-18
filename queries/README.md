@@ -7,7 +7,7 @@ plotted against the **reception-stream index `tick`**, read live from
 `qdb.planetary_reception_stream`. It is a **single stream** — one event per index —
 here colored by source so each planet is legible.
 
-- **Query:** [`grafana_reception_stream_tick.sql`](grafana_reception_stream_tick.sql) — two forms:
+- **Query:** [`grafana_reception_stream_tick.sql`](grafana_planetary_reception_tick.sql) — two forms:
   - the **display** query, one nullable column per source (so Grafana colors each planet);
   - the **learner's** query, one plain column — the raw stream with no source split.
 - **Panel:** XY Chart · x = `tick` · y = `q_relative_diff` · **Connect null values = true** (each per-source column is non-null only on its own ticks, so this draws one line per planet).
