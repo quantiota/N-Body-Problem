@@ -221,8 +221,8 @@ N-Body-Problem/
 │   └── replay_stream.py
 │  
 └── queries/    
-    ├── grafana_planetary_reception.sql
-    └── planetary_system_events.png
+    ├── grafana_planetary_reception_tick.sql
+    └── planetary_reception_stream_tick.png
     └── README.md
 
 ```
