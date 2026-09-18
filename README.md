@@ -220,7 +220,7 @@ N-Body-Problem/
 │   └── generate_long_stream.py
 │   └── replay_stream.py
 │  
-└── sql/    
+└── queries/    
     ├── grafana_planetary_reception.sql
     └── planetary_system_events.png
     └── README.md
