@@ -232,6 +232,8 @@ pip install -r requirements.txt
 python scripts/build_stream.py
 ```
 
+For a ready-to-use environment install the docker stack: [AI Agent Lab](https://github.com/quantiota/AI-Agent-Lab/tree/main)
+
 The builder checks the chronological tick index, reception ordering, and
 positive return envelopes. It writes the learner stream, preview, frequency
 truth map, and manifest into `data/`.
