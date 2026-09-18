@@ -208,6 +208,7 @@ $$
 N-Body-Problem/
 ├── README.md
 ├── requirements.txt
+├── 1905.05988v1.pdf
 ├── data/
 │   ├── planetary_reception_stream.jsonl.gz  # learner-facing ticks
 │   ├── stream_preview.json                  # first 12 events
@@ -217,12 +218,11 @@ N-Body-Problem/
 │   └── planetary_wave_samples.npz           # launch/return samples
 ├── scripts/
 │   ├── build_stream.py
-│   └── generate_long_stream.py
+│   ├── generate_long_stream.py
 │   └── replay_stream.py
-│  
-└── queries/    
-    ├── grafana_planetary_reception_tick.sql
-    └── planetary_reception_stream_tick.png
+└── queries/
+    ├── grafana_reception_stream_tick.sql
+    ├── planetary_reception_stream_tick.png
     └── README.md
 
 ```
@@ -294,9 +294,6 @@ not supplied to the learner.
 - First reception: 460.888664 seconds after J2000.
 - Last reception: 7,637,776.630 seconds after J2000.
 - The manifest records the SHA-256 checksum of the uncompressed JSONL stream.
-pe
-
-The orbital input comes from JPL's approximate Keplerian elements and rates,
 
 ## A note on Wheeler's participatory picture
 
