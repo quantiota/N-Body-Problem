@@ -1,6 +1,6 @@
 # The planetary reception stream — Δq/q on the real index `tick`
 
-![The reception stream, colored by source — still one event per index](reception_stream_colored.png)
+![The reception stream, colored by source — still one event per index](planetary_system_events_tick.png)
 
 A Grafana **XY-chart** panel (QuestDB datasource) of `q_relative_diff` = Δqᵢ/qᵢ
 plotted against the **reception-stream index `tick`**, read live from
