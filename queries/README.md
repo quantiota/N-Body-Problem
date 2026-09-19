@@ -5,7 +5,7 @@
 A Grafana **XY-chart** panel (QuestDB datasource) of `q_relative_diff` = Δqᵢ/qᵢ
 plotted against the **reception-stream index `tick`**, read live from
 `qdb.planetary_reception_stream`. It is a **single stream** — one event per index —
-here colored by source so each planet is legible.
+here colored by source compton frequency so each planet is legible.
 
 - **Query:** [`grafana_reception_stream_tick.sql`](grafana_reception_stream_tick.sql) — one query: `SELECT tick, q_relative_diff, source_compton_frequency_hz … ORDER BY tick`. One row per tick: the value, tagged by its source.
 - **Panel:** XY Chart · x = `tick` · y = `q_relative_diff` · color by source via the **Partition by values** transform on `source_compton_frequency_hz` (splits into one colored, legended series per planet).
