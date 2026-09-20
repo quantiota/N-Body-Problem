@@ -83,10 +83,14 @@ $$
 The inverse-square dependence is produced by composing the two $1/r$
 propagation factors.
 
-This is a property of the spherical wave. Its amplitude falls as $1/r$, and
-because  $\frac{d}{dr}\left(\frac{1}{r}\right) = -\frac{1}{r^2}$, the returned
-$1/r^2$ is exactly the derivative of the outward $1/r$: the two legs are one
-function and its gradient, not two independent factors.
+This is a property of the spherical wave. The two legs multiply
+($1/r \times 1/r$), yet their product equals the gradient of the outward leg,
+since $\frac{d}{dr}\left(\frac{1}{r}\right) = -\frac{1}{r^2}$ — a coincidence
+special to the $1/r$ law, and hence to three dimensions, where $1/r$ is the
+unique fall-off with $f^2 = -f'$. Outward potential and returned field are
+therefore one function and its gradient: the same $1/r$ / $1/r^2$
+potential–force pair that inverse-square gravity carries, for the same
+geometric reason.
 
 The Compton frequency is the source signature. The return direction is given
 by azimuth $\lambda$ and elevation $\beta$. A reception event therefore
