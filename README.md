@@ -32,6 +32,22 @@ changes subsequent interactions. The experiments will test this hypothesis;
 the inverse-distance weight dependence and autonomous reconstruction are not
 assumed results.
 
+
+**The interaction is already in the signal.** A planet's returned amplitude
+$q$, and its successive relative change $\Delta q/q \approx -4\,v_r/c$, is the
+radial velocity of its *actual* orbit — a Sun-driven Keplerian ellipse (~99.9%)
+plus a small perturbation from the other seven planets (~$10^{-3}$, first order
+in the mass ratio $m/M_\odot$). So $\Delta q/q$ carries both the dominant
+Sun–planet motion and, folded into its fine structure — a slowly precessing
+phase, a drifting amplitude — the planet–planet interaction. The mutual coupling
+$W_{ij}$ is therefore recoverable from the stream, as the cross-planet
+correlation left in the residuals once each planet's Sun-only motion is removed.
+This is why the weight–distance experiment is possible at all: the observable
+the Sun receives already contains, at the $\sim 10^{-3}$ level, the relational
+matrix the learner is meant to build. In this dataset that perturbation is the
+*secular* one carried by the JPL element rates — the time-averaged effect on
+precession and drift — not a full instantaneous force law.
+
 ## Current implementation
 
 This version provides the observation stream for the first stage: a
