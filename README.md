@@ -35,7 +35,9 @@ assumed results.
 
 **The interaction is already in the signal.** A planet's returned amplitude
 $q$, and its successive relative change $\Delta q/q \approx -4\,v_r/c$, is the
-radial velocity of its *actual* orbit — a Sun-driven Keplerian ellipse (~99.9%) plus a small perturbation from the other seven planets (~$10^{-3}$, first order in the mass ratio $m/M_\odot$). So $\Delta q/q$ carries both the dominant
+radial velocity of its *actual* orbit — a Sun-driven Keplerian ellipse
+($\approx 99.9\%$) plus a small perturbation from the other seven planets
+($\approx 10^{-3}$, first order in the mass ratio $m/M_\odot$). So $\Delta q/q$ carries both the dominant
 Sun–planet motion and, folded into its fine structure — a slowly precessing
 phase, a drifting amplitude — the planet–planet interaction. The mutual coupling
 $W_{ij}$ is therefore recoverable from the stream, as the cross-planet
