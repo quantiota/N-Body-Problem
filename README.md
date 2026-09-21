@@ -332,7 +332,7 @@ historical events are never rewritten.
 > — J. A. Wheeler
 
 This is the conceptual lineage of the abstraction, not a claim to have
-reproduced Wheeler's program. It states the design axiom plainly: keep only the recorded present, and refuse the simultaneous global state that the differential-equation view quietly assumes.
+reproduced Wheeler's program. It states the design axiom plainly: keep only the recorded present, and refuse the simultaneous global state that the differential-equation view takes as given. The finite-propagation structure itself is standard relativistic physics — general relativity, the post-Newtonian celestial mechanics behind modern ephemerides, and the action-at-a-distance program below all treat it exactly; what the abstraction changes is not the dynamics but the vantage — posing the problem as the observer's received stream and asking what can be *learned* from it.
 
 The abstraction here was built from the spherical wave alone. Its author was not aware of Wheeler's world-line program, or of the reference below, while constructing it; the correspondence — the short-range $1/r^2$ / long-range $1/r$ pair, the retarded round trip, the Machian reading of force, and the reconstruction of geometry from exchange — was noticed only afterward. It is an independent convergence on the same structure — reached not merely from a different starting point but from the opposite one, since the spherical wave is a field-propagation construct, the very thing Wheeler's action-at-a-distance program set out to eliminate. That the same structure emerges from both the field picture and its removal is what marks this as convergence, not derivation.
 
