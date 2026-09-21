@@ -48,6 +48,20 @@ matrix the learner is meant to build. In this dataset that perturbation is the
 *secular* one carried by the JPL element rates — the time-averaged effect on
 precession and drift — not a full instantaneous force law.
 
+
+**Inference, not integration.** Classical mechanics obtains the orbits by
+*posing* the full force law — the Sun–planet term plus all 28 planet–planet
+terms — supplying masses, $G$, and initial conditions, and *integrating* eight
+coupled differential equations; it must presuppose Newton's $1/r^2$ even to write
+them down. The learner does none of this. Nature has already integrated the
+equations: the reception stream is the *result*, with every interaction folded
+in. The learner therefore works backward — inferring the relational structure
+$W$ from the observed residuals — without posing a single equation, assuming a
+force law, or knowing the masses or initial conditions. Classical mechanics
+computes forward from assumed law to motion; the learner runs backward from
+observed motion to latent structure. It is not a cheaper simulator of the
+N-body problem but its inverse.
+
 ## Current implementation
 
 This version provides the observation stream for the first stage: a
