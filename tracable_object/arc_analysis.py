@@ -51,6 +51,16 @@ def main():
         print("  %-8s   %6.2f        %.5f%%           %8.0f"
               % (n, v / 1e3, 100 * frac, 1 / frac))
 
+    print("\n\nTable 3 -- learning time: one full orbit closes a source's loop\n"
+          "(system learned when the SLOWEST source, Neptune, laps -> 173,398 round\n"
+          " trips ~ 164.9 yr; then every planet has been seen through >= 1 orbit)\n")
+    DAY = 86400.0; YR = 365.25 * DAY
+    print("  planet    orbital period   round trips / orbit  (= learning round trips)")
+    for n, a, rk in P:
+        r = a * AU; tau = 2 * r / C; T = 2 * np.pi * np.sqrt(r ** 3 / GM)
+        per = ("%.1f d" % (T / DAY)) if T < 2 * YR else ("%.2f yr" % (T / YR))
+        print("  %-8s  %-11s    %10.0f" % (n, per, T / tau))
+
 
 if __name__ == "__main__":
     main()

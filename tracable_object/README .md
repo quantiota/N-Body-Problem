@@ -73,3 +73,33 @@ learner **traceable objects by necessity**.
 
 The `1 part in N` column equals the number of round trips per orbit; Neptune's
 ~173,000 matches the ~174,000 cycles-per-orbit measured from the stream itself.
+
+## Table 3 — learning time: one orbit closes the loop
+
+A source is only fully learned once it has been observed through **one complete
+orbit** — until then its trajectory is an unclosed arc (period, eccentricity, and
+plane not yet fixed). So the round trips per orbit *is* the learning time, and the
+**whole system is learned when the slowest source, Neptune, laps**:
+
+| planet | orbital period | round trips / orbit (= learning round trips) |
+|---|---|---|
+| Mercury | 87.9 d | 19,671 |
+| Venus | 224.5 d | 26,887 |
+| Earth | 365.3 d | 31,621 |
+| Mars | 687.2 d | 39,036 |
+| Jupiter | 11.87 yr | 72,128 |
+| Saturn | 29.45 yr | 97,652 |
+| Uranus | 84.07 yr | 138,521 |
+| **Neptune** | **164.90 yr** | **173,398** |
+
+Neptune is the bottleneck: once it completes its orbit (**173,398 round trips ≈
+164.9 years**), every faster planet has already gone around many times, so **every
+source has been seen through ≥ 1 full orbit** — the first-order structure of the
+whole system is complete. Before that, Neptune is still an open arc (exactly as in
+the 25-year reconstruction, which is only ~15% of a Neptune orbit).
+
+This closes the **kinematic** learning (each planet's `a, e, period, plane`). The
+**interaction** (`W_ij`, the secular perturbations) lives on much longer precession
+timescales — its *rate* is detectable within the Neptune-orbit horizon, but its
+full cycle runs thousands of years.
+
