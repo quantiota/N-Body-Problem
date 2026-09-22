@@ -126,6 +126,22 @@ The Compton frequency is the source signature. The return direction is given
 by azimuth $\lambda$ and elevation $\beta$. A reception event therefore
 contains amplitude, source signature, and direction.
 
+**Two ingredients, everything else derived.** The whole construction rests on
+just the **spherical wave** and the **Compton frequency** — and this parsimony is
+one of its strongest features. The wave's $1/r$ amplitude gives distance (through
+$q$ and $\tau = 2r/c$), its change gives velocity, and the $1/r$ potential with
+its $1/r^2$ return gives the potential–force pair; the round trip gives the
+retarded stream and — because $v \ll c$ — a traceable object that barely moves
+between receptions. The Compton frequency $f = m c^2/h$ gives each source a
+distinct signature *and* carries its mass, so the masses that set the interaction
+are in the signal, not supplied from outside. Nothing else is assumed: the
+stream, the transitions, the relational matrix, and the interaction folded into
+$\Delta q/q$ are consequences of these two. And each load-bearing feature is
+*forced* by physics — 3-D geometry ($1/r \to 1/r^2$), $v \ll c$ (traceability),
+$m = f h/c^2$ (mass in the signature) — not chosen. That is what makes the
+encoding the one the physics hands you, not one imposed on it.
+
+
 ## Why it is a stream
 
 At local time $t$, the Sun does not receive the simultaneous state
