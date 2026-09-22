@@ -270,10 +270,13 @@ N-Body-Problem/
 │   ├── build_stream.py
 │   ├── generate_long_stream.py
 │   └── replay_stream.py
-└── queries/
-    ├── grafana_reception_stream_tick.sql
-    ├── planetary_reception_stream_tick.png
-    └── README.md
+├── queries/
+│   ├── grafana_reception_stream_tick.sql
+│   ├── planetary_reception_stream_tick.png
+│   └── README.md
+└── traceable_object/
+    ├── README.md            # arc per round trip -> traceable object
+    └── arc_analysis.py      # arc vs diameter, arc vs orbit
 
 ```
 
