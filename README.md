@@ -7,6 +7,29 @@ can reconstruct the organization and dynamics of the Solar System through
 learning from causal information exchanges, with kinetic energy interpreted
 as the physical cost of learning.
 
+## The disproportion
+
+A planetary system is ordinarily treated as the paradigm of complexity: eight
+bodies, 28 mutual interactions, sensitive dependence on initial conditions,
+secular resonances, chaos on long timescales. Classical mechanics meets that
+complexity by writing an equally complex apparatus — the full set of coupled
+equations, all the masses, $G$, and carefully chosen initial data.
+
+The abstraction does the opposite. It meets the same system with almost nothing:
+
+- one geometric fact about spherical waves,
+- finite light speed,
+- mass as a passive frequency label,
+- and the kinematic inequality $v \ll c$.
+
+Yet from that sparse set it claims to obtain a stream rich enough for the
+organized structure to be read back out. The strangeness lies exactly there: the
+complexity appears to be already solved by Nature and folded into the retarded
+answers, so the learner is left with an inference problem that can be stated with
+extreme economy. Whether the inference actually recovers the structure remains to
+be shown, but the disproportion between the simplicity of the starting point and
+the complexity of the target system is real and striking.
+
 ## Research goal
 
 The research proceeds in two stages:
