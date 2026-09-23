@@ -83,8 +83,8 @@ consecutive ticks belong to *different* sources. As points it resolves into a
 so the difference over a *fixed ordered pair* is smooth too, and the pairs are
 finite. **57 of the 64 possible transitions occur** — the seven missing ones are
 exactly the non-Mercury self-loops, since a source can follow itself only if
-nothing faster exists to interrupt it. The ordering of the orbits writes the
-grammar of the stream.
+nothing faster exists to interrupt it. The ordering of the orbits alone fixes
+which transitions can occur.
 
 Each strand is one ordered pair `(i → j)`, so the 56 off-diagonal strands are the
 index set of the coupling matrix `W`; mirrored pairs satisfy `d(i→j) = −d(j→i)`
