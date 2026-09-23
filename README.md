@@ -355,7 +355,11 @@ The Earth orbital position is represented by the Earth–Moon barycentre. The
 current dataset uses the same frozen-geometry-per-round-trip approximation as
 the earlier plots. It does not include endpoint motion during a signal leg,
 measurement noise, carrier phase, Doppler corrections, gravitational
-frequency shifts, or a dynamical force law.
+frequency shifts, or a dynamical force law. Each planet is propagated as an
+isolated two-body ellipse, so the planet–planet interaction is present only as
+the secular drift baked into the element rates; this approximate dataset is the
+first-stage application, to be replaced by a dynamical N-body regeneration in
+which the pairwise interaction is live rather than time-averaged.
 
 This is an abstraction and a controlled learning dataset. It is not a claim
 that the Sun or planets physically exchange total-mass Compton waves. The
