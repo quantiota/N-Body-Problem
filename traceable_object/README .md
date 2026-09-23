@@ -103,3 +103,4 @@ This closes the **kinematic** learning (each planet's `a, e, period, plane`). Th
 timescales — its *rate* is detectable within the Neptune-orbit horizon, but its
 full cycle runs thousands of years.
 
+
