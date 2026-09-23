@@ -275,33 +275,6 @@ $$
 H_{\mathrm{SKA}}=-\frac{1}{\ln 2}\sum_k Z_k\cdot\Delta D_k.
 $$
 
-## Repository layout
-
-```text
-N-Body-Problem/
-├── README.md
-├── requirements.txt
-├── 1905.05988v1.pdf
-├── data/
-│   ├── planetary_reception_stream.jsonl.gz  # learner-facing ticks
-│   ├── stream_preview.json                  # first 12 events
-│   ├── stream_manifest.json                 # schema and checksum
-│   ├── frequency_truth_map.json             # evaluation metadata
-│   ├── directional_tick_stream.npz          # directional source dataset
-│   └── planetary_wave_samples.npz           # launch/return samples
-├── scripts/
-│   ├── build_stream.py
-│   ├── generate_long_stream.py
-│   └── replay_stream.py
-├── queries/
-│   ├── grafana_reception_stream_tick.sql
-│   ├── planetary_reception_stream_tick.png
-│   └── README.md
-└── traceable_object/
-    ├── README.md            # arc per round trip -> traceable object
-    └── arc_analysis.py      # arc vs diameter, arc vs orbit
-
-```
 
 ## Rebuild the stream
 

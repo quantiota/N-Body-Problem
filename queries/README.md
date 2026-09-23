@@ -71,3 +71,29 @@ comparable axis (e.g. pivoting on each source's own return counter) is a
 *re-parameterization*, not the stream: it aligns 8 distinct events under one
 index. The stream itself is this single line.
 
+# The successive difference — one index back
+
+![Successive difference of the reception stream, drawn as points and colored by source](planetary_sucessive_diff_tick.png)
+
+Reindex the stream by one and subtract — `d[k] = v[k] − v[k−1]`, the query in
+[`grafana_successive_diff_tick.sql`](grafana_successive_diff_tick.sql) — and draw
+the result as **points, not lines**. As lines it is a solid band, because
+consecutive ticks belong to *different* sources. As points it resolves into a
+**braid of smooth strands**: each source's `q_relative_diff` is smooth in `tick`,
+so the difference over a *fixed ordered pair* is smooth too, and the pairs are
+finite. **57 of the 64 possible transitions occur** — the seven missing ones are
+exactly the non-Mercury self-loops, since a source can follow itself only if
+nothing faster exists to interrupt it. The ordering of the orbits writes the
+grammar of the stream.
+
+Each strand is one ordered pair `(i → j)`, so the 56 off-diagonal strands are the
+index set of the coupling matrix `W`; mirrored pairs satisfy `d(i→j) = −d(j→i)`
+(the extremes are Mars ↔ Mercury at `±1.6535×10⁻⁴`); a strand's point *density*
+is its transition count; and the main strands oscillate with a period of **45,760
+ticks — Mercury's year**, with nodes at its perihelion and aphelion passages.
+
+All of it comes from echo amplitudes and arrival order alone — but all of it is
+**two-body geometry**. The interaction is not in the shape of any strand. That
+carrier is analytically computable, so it makes a clean null model: subtract each
+lane's Keplerian prediction and the residual — `~10⁻³`, and in this dataset the
+*secular* part only — is where `W_ij` lives.
