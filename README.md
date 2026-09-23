@@ -60,16 +60,24 @@ assumed results.
 $q$, and its successive relative change $\Delta q/q \approx -4\,v_r/c$, is the
 radial velocity of its *actual* orbit — a Sun-driven Keplerian ellipse
 ($\approx 99.9\%$) plus a small perturbation from the other seven planets
-($\approx 10^{-3}$, first order in the mass ratio $m/M_\odot$). So $\Delta q/q$ carries both the dominant
-Sun–planet motion and, folded into its fine structure — a slowly precessing
-phase, a drifting amplitude — the planet–planet interaction. The mutual coupling
-$W_{ij}$ is therefore recoverable from the stream, as the cross-planet
-correlation left in the residuals once each planet's Sun-only motion is removed.
-This is why the weight–distance experiment is possible at all: the observable
-the Sun receives already contains, at the $\sim 10^{-3}$ level, the relational
-matrix the learner is meant to build. In this dataset that perturbation is the
-*secular* one carried by the JPL element rates — the time-averaged effect on
-precession and drift — not a full instantaneous force law.
+($\approx 10^{-3}$, first order in the mass ratio $m/M_\odot$). So $\Delta q/q$
+carries both the dominant Sun–planet motion and, folded into its fine
+structure — a slowly precessing phase, a drifting amplitude — the planet–planet
+interaction. In a dynamically generated stream, the mutual coupling $W_{ij}$ is
+therefore recoverable as the cross-planet correlation left in the residuals once
+each planet's Sun-only motion is removed: planet $i$'s residual depends on where
+planet $j$ is. This is why the weight–distance experiment is possible at all:
+the observable the Sun receives contains, at the $\sim 10^{-3}$ level, the
+relational matrix the learner is meant to build.
+
+In the current dataset, each planet is propagated as an isolated two-body
+ellipse, and the perturbation enters only as the *secular* drift carried by the
+JPL element rates — the time-averaged effect on precession and drift, not a
+full instantaneous force law. Each residual then depends on time alone, not on
+the other planets' positions, so no cross-planet correlation is present. At
+this stage $W_{ij}$ can be constrained only through a model of how the eight
+secular drifts split into pairwise contributions. Direct recovery of $W_{ij}$
+requires the dynamical N-body regeneration.
 
 
 **Inference, not integration.** Classical mechanics obtains the orbits by
