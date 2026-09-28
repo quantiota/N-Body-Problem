@@ -2,7 +2,7 @@
 
 *Exploring the N-body problem through information theory and Structured Knowledge Accumulation (SKA)*
 
-This repository investigates whether Structured Knowledge Accumulation (SKA)
+This repository investigates whether [Structured Knowledge Accumulation](https://github.com/quantiota/Arxiv) (SKA)
 can reconstruct the organization and dynamics of the Solar System through
 learning from causal information exchanges, with kinetic energy interpreted
 as the physical cost of learning.
