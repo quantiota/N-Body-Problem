@@ -1,4 +1,5 @@
 # N-Body Problem
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23107529.svg)](https://doi.org/10.5281/zenodo.23107529)
 
 *Exploring the N-body problem through information theory and Structured Knowledge Accumulation (SKA)*
 
