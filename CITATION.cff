@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+type: software
+title: "N-Body Problem: a retarded reception stream for learning Solar System structure with Structured Knowledge Accumulation"
+authors:
+  - family-names: Mahi
+    given-names: Bouarfa
+    affiliation: Quantiota
+repository-code: "https://github.com/quantiota/N-Body-Problem"
+license: MIT
+commit: b37b3ca
+date-released: 2026-09-28
+keywords:
+  - N-body problem
+  - celestial mechanics
+  - Solar System
+  - planetary ranging
+  - retarded interaction
+  - information theory
+  - machine learning
+  - Structured Knowledge Accumulation
+abstract: >-
+  A deterministic, observer-centred dataset for the Solar System N-body problem.
+  The Sun receives a single forward-only stream of light-delayed echoes from the
+  eight planets (46,786 events over 88.4 days; 4.7 million over 25 years), each
+  carrying a Compton-frequency source signature, a 1/r^2 return amplitude and a
+  direction, with no positions or planet labels exposed. Planet positions come
+  from JPL approximate Keplerian elements (1800-2050) propagated as isolated
+  two-body ellipses, so planet-planet interaction enters only as secular element
+  drift. The stream is intended as input for testing whether Structured
+  Knowledge Accumulation can infer relational structure (W_ij) without an
+  assumed force law.
