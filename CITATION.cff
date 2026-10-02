@@ -5,11 +5,12 @@ title: "N-Body Problem: a retarded reception stream for learning Solar System st
 authors:
   - family-names: Mahi
     given-names: Bouarfa
-    affiliation: Quantiota
+    affiliation: Université Joseph Fourier
 repository-code: "https://github.com/quantiota/N-Body-Problem"
 license: MIT
-commit: 2277e88
-date-released: 2026-09-28
+version: 2277e88
+doi: 10.5281/zenodo.23107529
+date-released: 2026-10-02
 keywords:
   - N-body problem
   - celestial mechanics
