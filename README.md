@@ -206,7 +206,13 @@ forward-only and historical events are never rewritten.
 ## Learner-facing event
 
 The file `data/planetary_reception_stream.jsonl.gz` contains 46,786 newline-
-delimited JSON events. A shortened example is:
+delimited JSON events. The charts in this README and in `queries/` use a longer
+**25-year stream of 4,745,929 ticks**, which is not committed — rebuild it with
+`python scripts/generate_long_stream.py --years 25 --ingest --recreate`, which
+writes the `planetary_reception_stream` table in QuestDB.
+
+A shortened example event is:
+
 
 ```json
 {
